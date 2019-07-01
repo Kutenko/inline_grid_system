@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$nums: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+//medium
+@media screen and (min-width: 980px) {
+    @each $num in $nums {
+        .grid-child__#{$num}--l {
+            width: 100%;
+            clear: both;
+            overflow: hidden;
+            > div{
+                display: block;
+                float: left;
+                $width: 100% / #{$num};
+                width: $width;
+            } 
+        }
+    }
+}
+//medium
+@media screen and (max-width: 980px) {
+    @each $num in $nums {
+        .grid-child__#{$num}--m {
+            width: 100%;
+            clear: both;
+            overflow: hidden;
+            > div{
+                display: block;
+                float: left;
+                $width: 100% / #{$num};
+                width: $width;
+            } 
+        }
+    }
+}
+//small
+@media screen and (max-width: 640px) {
+    @each $num in $nums {
+        .grid-child__#{$num}--s {
+            width: 100%;
+            clear: both;
+            overflow: hidden;
+            > div{
+                display: block;
+                float: left;
+                $width: 100% / #{$num};
+                width: $width;
+            } 
+        }
+    }
+}
