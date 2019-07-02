@@ -5,9 +5,10 @@
 }
 
 $nums: 1, 2, 3, 4, 5, 6;
-
+$sizes: --l, --m, --s;
 .container{
     max-width: 1100px;
+    width: 100%;
     margin: 0 auto;
 }
 div[class^="grid-child"]{
@@ -16,13 +17,13 @@ div[class^="grid-child"]{
         float: none;
     }
 }
-//medium
-@media screen and (min-width: 980px) {
+@each $size in $sizes {
     @each $num in $nums {
-        .grid-child__#{$num}--l {
-            width: 100%;
-            clear: both;
-            overflow: hidden;
+        .grid-child__#{$num}#{$size} {
+            > div{
+                vertical-align: middle;
+                display: inline-block;
+            }
             div.middle{
                 vertical-align: middle;
             }
@@ -32,10 +33,18 @@ div[class^="grid-child"]{
             div.bottom{
                 vertical-align: bottom;
             }
+        }
+    }
+}
+//large
+@media screen and (min-width: 980px) {
+    @each $num in $nums {
+        .grid-child__#{$num}--l {
+            width: 100%;
+            clear: both;
+            overflow: hidden;
             > div{
-                vertical-align: middle;
-                display: inline-block;
-                $width: 97% / #{$num};
+                $width: calc(100% / #{$num} - #{$num}px);
                 width: $width;
             } 
         }
@@ -48,10 +57,8 @@ div[class^="grid-child"]{
             width: 100%;
             clear: both;
             overflow: hidden;
-            vertical-align: middle;
             > div{
-                display: inline-block;
-                $width: 98% / #{$num};
+                $width: calc(100% / #{$num} - #{$num}px);
                 width: $width;
             } 
         }
@@ -64,10 +71,8 @@ div[class^="grid-child"]{
             width: 100%;
             clear: both;
             overflow: hidden;
-            vertical-align: middle;
             > div{
-                display: inline-block;
-                $width: 98% / #{$num};
+                $width: calc(100% / #{$num} - #{$num}px);
                 width: $width;
             } 
         }
