@@ -37,7 +37,7 @@ div[class^="grid-child"]{
     }
 }
 //large
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1100px) {
     @each $num in $nums {
         .grid-child__#{$num}--l {
             width: 100%;
@@ -51,7 +51,7 @@ div[class^="grid-child"]{
     }
 }
 //medium
-@media screen and (max-width: 980px) {
+@media (min-width: 640px) and (max-width: 1100px) {
     @each $num in $nums {
         .grid-child__#{$num}--m {
             width: 100%;
@@ -65,7 +65,7 @@ div[class^="grid-child"]{
     }
 }
 //small
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
     @each $num in $nums {
         .grid-child__#{$num}--s {
             width: 100%;
