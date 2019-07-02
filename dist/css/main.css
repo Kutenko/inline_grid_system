@@ -7,296 +7,201 @@
   max-width: 1100px;
   margin: 0 auto; }
 
+div[class^="grid-child"].align_center {
+  text-align: center;
+  float: none; }
+
 @media screen and (min-width: 980px) {
   .grid-child__1--l {
     width: 100%;
     clear: both;
     overflow: hidden; }
+    .grid-child__1--l div.middle {
+      vertical-align: middle; }
+    .grid-child__1--l div.top {
+      vertical-align: top; }
+    .grid-child__1--l div.bottom {
+      vertical-align: bottom; }
     .grid-child__1--l > div {
-      display: block;
-      float: left;
-      width: 100%; }
+      vertical-align: middle;
+      display: inline-block;
+      width: 97%; }
   .grid-child__2--l {
     width: 100%;
     clear: both;
     overflow: hidden; }
+    .grid-child__2--l div.middle {
+      vertical-align: middle; }
+    .grid-child__2--l div.top {
+      vertical-align: top; }
+    .grid-child__2--l div.bottom {
+      vertical-align: bottom; }
     .grid-child__2--l > div {
-      display: block;
-      float: left;
-      width: 50%; }
+      vertical-align: middle;
+      display: inline-block;
+      width: 48.5%; }
   .grid-child__3--l {
     width: 100%;
     clear: both;
     overflow: hidden; }
+    .grid-child__3--l div.middle {
+      vertical-align: middle; }
+    .grid-child__3--l div.top {
+      vertical-align: top; }
+    .grid-child__3--l div.bottom {
+      vertical-align: bottom; }
     .grid-child__3--l > div {
-      display: block;
-      float: left;
-      width: 33.33333%; }
+      vertical-align: middle;
+      display: inline-block;
+      width: 32.33333%; }
   .grid-child__4--l {
     width: 100%;
     clear: both;
     overflow: hidden; }
+    .grid-child__4--l div.middle {
+      vertical-align: middle; }
+    .grid-child__4--l div.top {
+      vertical-align: top; }
+    .grid-child__4--l div.bottom {
+      vertical-align: bottom; }
     .grid-child__4--l > div {
-      display: block;
-      float: left;
-      width: 25%; }
+      vertical-align: middle;
+      display: inline-block;
+      width: 24.25%; }
   .grid-child__5--l {
     width: 100%;
     clear: both;
     overflow: hidden; }
+    .grid-child__5--l div.middle {
+      vertical-align: middle; }
+    .grid-child__5--l div.top {
+      vertical-align: top; }
+    .grid-child__5--l div.bottom {
+      vertical-align: bottom; }
     .grid-child__5--l > div {
-      display: block;
-      float: left;
-      width: 20%; }
+      vertical-align: middle;
+      display: inline-block;
+      width: 19.4%; }
   .grid-child__6--l {
     width: 100%;
     clear: both;
     overflow: hidden; }
+    .grid-child__6--l div.middle {
+      vertical-align: middle; }
+    .grid-child__6--l div.top {
+      vertical-align: top; }
+    .grid-child__6--l div.bottom {
+      vertical-align: bottom; }
     .grid-child__6--l > div {
-      display: block;
-      float: left;
-      width: 16.66667%; }
-  .grid-child__7--l {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__7--l > div {
-      display: block;
-      float: left;
-      width: 14.28571%; }
-  .grid-child__8--l {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__8--l > div {
-      display: block;
-      float: left;
-      width: 12.5%; }
-  .grid-child__9--l {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__9--l > div {
-      display: block;
-      float: left;
-      width: 11.11111%; }
-  .grid-child__10--l {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__10--l > div {
-      display: block;
-      float: left;
-      width: 10%; }
-  .grid-child__11--l {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__11--l > div {
-      display: block;
-      float: left;
-      width: 9.09091%; }
-  .grid-child__12--l {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__12--l > div {
-      display: block;
-      float: left;
-      width: 8.33333%; } }
+      vertical-align: middle;
+      display: inline-block;
+      width: 16.16667%; } }
 
 @media screen and (max-width: 980px) {
   .grid-child__1--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__1--m > div {
-      display: block;
-      float: left;
-      width: 100%; }
+      display: inline-block;
+      width: 98%; }
   .grid-child__2--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__2--m > div {
-      display: block;
-      float: left;
-      width: 50%; }
+      display: inline-block;
+      width: 49%; }
   .grid-child__3--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__3--m > div {
-      display: block;
-      float: left;
-      width: 33.33333%; }
+      display: inline-block;
+      width: 32.66667%; }
   .grid-child__4--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__4--m > div {
-      display: block;
-      float: left;
-      width: 25%; }
+      display: inline-block;
+      width: 24.5%; }
   .grid-child__5--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__5--m > div {
-      display: block;
-      float: left;
-      width: 20%; }
+      display: inline-block;
+      width: 19.6%; }
   .grid-child__6--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__6--m > div {
-      display: block;
-      float: left;
-      width: 16.66667%; }
-  .grid-child__7--m {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__7--m > div {
-      display: block;
-      float: left;
-      width: 14.28571%; }
-  .grid-child__8--m {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__8--m > div {
-      display: block;
-      float: left;
-      width: 12.5%; }
-  .grid-child__9--m {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__9--m > div {
-      display: block;
-      float: left;
-      width: 11.11111%; }
-  .grid-child__10--m {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__10--m > div {
-      display: block;
-      float: left;
-      width: 10%; }
-  .grid-child__11--m {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__11--m > div {
-      display: block;
-      float: left;
-      width: 9.09091%; }
-  .grid-child__12--m {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__12--m > div {
-      display: block;
-      float: left;
-      width: 8.33333%; } }
+      display: inline-block;
+      width: 16.33333%; } }
 
 @media screen and (max-width: 640px) {
   .grid-child__1--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__1--s > div {
-      display: block;
-      float: left;
-      width: 100%; }
+      display: inline-block;
+      width: 98%; }
   .grid-child__2--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__2--s > div {
-      display: block;
-      float: left;
-      width: 50%; }
+      display: inline-block;
+      width: 49%; }
   .grid-child__3--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__3--s > div {
-      display: block;
-      float: left;
-      width: 33.33333%; }
+      display: inline-block;
+      width: 32.66667%; }
   .grid-child__4--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__4--s > div {
-      display: block;
-      float: left;
-      width: 25%; }
+      display: inline-block;
+      width: 24.5%; }
   .grid-child__5--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__5--s > div {
-      display: block;
-      float: left;
-      width: 20%; }
+      display: inline-block;
+      width: 19.6%; }
   .grid-child__6--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    vertical-align: middle; }
     .grid-child__6--s > div {
-      display: block;
-      float: left;
-      width: 16.66667%; }
-  .grid-child__7--s {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__7--s > div {
-      display: block;
-      float: left;
-      width: 14.28571%; }
-  .grid-child__8--s {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__8--s > div {
-      display: block;
-      float: left;
-      width: 12.5%; }
-  .grid-child__9--s {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__9--s > div {
-      display: block;
-      float: left;
-      width: 11.11111%; }
-  .grid-child__10--s {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__10--s > div {
-      display: block;
-      float: left;
-      width: 10%; }
-  .grid-child__11--s {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__11--s > div {
-      display: block;
-      float: left;
-      width: 9.09091%; }
-  .grid-child__12--s {
-    width: 100%;
-    clear: both;
-    overflow: hidden; }
-    .grid-child__12--s > div {
-      display: block;
-      float: left;
-      width: 8.33333%; } }
+      display: inline-block;
+      width: 16.33333%; } }
+
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.grey {
+  background: grey; }

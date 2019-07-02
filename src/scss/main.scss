@@ -4,13 +4,18 @@
     padding: 0;
 }
 
-$nums: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+$nums: 1, 2, 3, 4, 5, 6;
 
 .container{
     max-width: 1100px;
     margin: 0 auto;
 }
-
+div[class^="grid-child"]{
+    &.align_center{
+        text-align: center;
+        float: none;
+    }
+}
 //medium
 @media screen and (min-width: 980px) {
     @each $num in $nums {
@@ -18,10 +23,19 @@ $nums: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
             width: 100%;
             clear: both;
             overflow: hidden;
+            div.middle{
+                vertical-align: middle;
+            }
+            div.top{
+                vertical-align: top;
+            }
+            div.bottom{
+                vertical-align: bottom;
+            }
             > div{
-                display: block;
-                float: left;
-                $width: 100% / #{$num};
+                vertical-align: middle;
+                display: inline-block;
+                $width: 97% / #{$num};
                 width: $width;
             } 
         }
@@ -34,10 +48,10 @@ $nums: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
             width: 100%;
             clear: both;
             overflow: hidden;
+            vertical-align: middle;
             > div{
-                display: block;
-                float: left;
-                $width: 100% / #{$num};
+                display: inline-block;
+                $width: 98% / #{$num};
                 width: $width;
             } 
         }
@@ -50,12 +64,22 @@ $nums: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
             width: 100%;
             clear: both;
             overflow: hidden;
+            vertical-align: middle;
             > div{
-                display: block;
-                float: left;
-                $width: 100% / #{$num};
+                display: inline-block;
+                $width: 98% / #{$num};
                 width: $width;
             } 
         }
     }
+}
+
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.grey{
+    background: grey;
 }
