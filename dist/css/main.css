@@ -90,6 +90,19 @@ div[class^="grid-child"].align_center {
 .grid-child__6--l div.bottom {
   vertical-align: bottom; }
 
+.grid-child__7--l > div {
+  vertical-align: middle;
+  display: inline-block; }
+
+.grid-child__7--l div.middle {
+  vertical-align: middle; }
+
+.grid-child__7--l div.top {
+  vertical-align: top; }
+
+.grid-child__7--l div.bottom {
+  vertical-align: bottom; }
+
 .grid-child__1--m > div {
   vertical-align: middle;
   display: inline-block; }
@@ -166,6 +179,19 @@ div[class^="grid-child"].align_center {
   vertical-align: top; }
 
 .grid-child__6--m div.bottom {
+  vertical-align: bottom; }
+
+.grid-child__7--m > div {
+  vertical-align: middle;
+  display: inline-block; }
+
+.grid-child__7--m div.middle {
+  vertical-align: middle; }
+
+.grid-child__7--m div.top {
+  vertical-align: top; }
+
+.grid-child__7--m div.bottom {
   vertical-align: bottom; }
 
 .grid-child__1--s > div {
@@ -246,6 +272,19 @@ div[class^="grid-child"].align_center {
 .grid-child__6--s div.bottom {
   vertical-align: bottom; }
 
+.grid-child__7--s > div {
+  vertical-align: middle;
+  display: inline-block; }
+
+.grid-child__7--s div.middle {
+  vertical-align: middle; }
+
+.grid-child__7--s div.top {
+  vertical-align: top; }
+
+.grid-child__7--s div.bottom {
+  vertical-align: bottom; }
+
 @media screen and (min-width: 980px) {
   .grid-child__1--l {
     width: 100%;
@@ -282,7 +321,13 @@ div[class^="grid-child"].align_center {
     clear: both;
     overflow: hidden; }
     .grid-child__6--l > div {
-      width: calc(100% / 6 - 6px); } }
+      width: calc(100% / 6 - 6px); }
+  .grid-child__7--l {
+    width: 100%;
+    clear: both;
+    overflow: hidden; }
+    .grid-child__7--l > div {
+      width: calc(100% / 7 - 7px); } }
 
 @media screen and (max-width: 980px) {
   .grid-child__1--m {
@@ -320,7 +365,13 @@ div[class^="grid-child"].align_center {
     clear: both;
     overflow: hidden; }
     .grid-child__6--m > div {
-      width: calc(100% / 6 - 6px); } }
+      width: calc(100% / 6 - 6px); }
+  .grid-child__7--m {
+    width: 100%;
+    clear: both;
+    overflow: hidden; }
+    .grid-child__7--m > div {
+      width: calc(100% / 7 - 7px); } }
 
 @media screen and (max-width: 640px) {
   .grid-child__1--s {
@@ -358,7 +409,13 @@ div[class^="grid-child"].align_center {
     clear: both;
     overflow: hidden; }
     .grid-child__6--s > div {
-      width: calc(100% / 6 - 6px); } }
+      width: calc(100% / 6 - 6px); }
+  .grid-child__7--s {
+    width: 100%;
+    clear: both;
+    overflow: hidden; }
+    .grid-child__7--s > div {
+      width: calc(100% / 7 - 7px); } }
 
 .red {
   background: red; }
