@@ -8,8 +8,19 @@
   width: 100%;
   margin: 0 auto; }
 
-div[class^="grid-child"].align_center {
+div[class^="grid-child"].align_center,
+div[class^="grid-child"] .align_center {
   text-align: center;
+  float: none; }
+
+div[class^="grid-child"].align_left,
+div[class^="grid-child"] .align_left {
+  text-align: left;
+  float: none; }
+
+div[class^="grid-child"].align_right,
+div[class^="grid-child"] .align_right {
+  text-align: right;
   float: none; }
 
 .grid-child__1--l > div {
@@ -289,132 +300,195 @@ div[class^="grid-child"].align_center {
   .grid-child__1--l {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__1--l > div {
+      font-size: 18px;
       width: calc(100% / 1 - 1px); }
   .grid-child__2--l {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__2--l > div {
+      font-size: 18px;
       width: calc(100% / 2 - 2px); }
   .grid-child__3--l {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__3--l > div {
+      font-size: 18px;
       width: calc(100% / 3 - 3px); }
   .grid-child__4--l {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__4--l > div {
+      font-size: 18px;
       width: calc(100% / 4 - 4px); }
   .grid-child__5--l {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__5--l > div {
+      font-size: 18px;
       width: calc(100% / 5 - 5px); }
   .grid-child__6--l {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__6--l > div {
+      font-size: 18px;
       width: calc(100% / 6 - 6px); }
   .grid-child__7--l {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__7--l > div {
+      font-size: 18px;
       width: calc(100% / 7 - 7px); } }
 
 @media (min-width: 640px) and (max-width: 1100px) {
   .grid-child__1--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__1--m > div {
+      font-size: 18px;
       width: calc(100% / 1 - 1px); }
   .grid-child__2--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__2--m > div {
+      font-size: 18px;
       width: calc(100% / 2 - 2px); }
   .grid-child__3--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__3--m > div {
+      font-size: 18px;
       width: calc(100% / 3 - 3px); }
   .grid-child__4--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__4--m > div {
+      font-size: 18px;
       width: calc(100% / 4 - 4px); }
   .grid-child__5--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__5--m > div {
+      font-size: 18px;
       width: calc(100% / 5 - 5px); }
   .grid-child__6--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__6--m > div {
+      font-size: 18px;
       width: calc(100% / 6 - 6px); }
   .grid-child__7--m {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__7--m > div {
+      font-size: 18px;
       width: calc(100% / 7 - 7px); } }
 
 @media (max-width: 640px) {
   .grid-child__1--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__1--s > div {
+      font-size: 18px;
       width: calc(100% / 1 - 1px); }
   .grid-child__2--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__2--s > div {
+      font-size: 18px;
       width: calc(100% / 2 - 2px); }
   .grid-child__3--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__3--s > div {
+      font-size: 18px;
       width: calc(100% / 3 - 3px); }
   .grid-child__4--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__4--s > div {
+      font-size: 18px;
       width: calc(100% / 4 - 4px); }
   .grid-child__5--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__5--s > div {
+      font-size: 18px;
       width: calc(100% / 5 - 5px); }
   .grid-child__6--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__6--s > div {
+      font-size: 18px;
       width: calc(100% / 6 - 6px); }
   .grid-child__7--s {
     width: 100%;
     clear: both;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0;
+    letter-spacing: -1px; }
     .grid-child__7--s > div {
+      font-size: 18px;
       width: calc(100% / 7 - 7px); } }
 
 .red {
